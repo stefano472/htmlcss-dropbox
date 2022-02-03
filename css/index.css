@@ -3,11 +3,29 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
 }
 
 /* Utility */
+
+h1 {
+    font-size: 3.1rem;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
 .padd-2 {
     padding: 2vh;
+}
+
+.padd-bottom-3 {
+    padding-bottom: 3.2vh;
+}
+
+.m-auto {
+    margin: auto;
 }
 
 .float-left {
@@ -18,6 +36,12 @@
     float: right;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .w-15 {
     width: 15%;
 }
@@ -26,8 +50,20 @@
     width: 35%;
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-80 {
+    width: 80%;
 }
 
 .w-100 {
@@ -52,6 +88,10 @@
 
 .l-height-2 {
     line-height: 2rem;;
+}
+
+.bg-light-blue {
+    background-color: #b4d0e7;
 }
 
 .btn {
@@ -89,7 +129,6 @@ header li {
 header li > a {
     margin: 0 1vw;
     padding-bottom: 3.2vh;
-    font-weight: bolder;
     font-size: 0.7rem;
     color: black;
     text-decoration: none;
@@ -97,4 +136,31 @@ header li > a {
 
 header li > a:hover {
     border-bottom: 1px solid black;
+}
+
+#jumbo-tron {
+    margin-top: 9vh;
+}
+
+#jumbo-tron h1 {
+    padding-top: 8vh;
+}
+
+#jumbo-tron p {
+    margin-right: 5vw;
+}
+
+#jumbo-tron a {
+    display: inline-block;
+    margin-bottom: 1vh;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+div.float-left div {
+    font-size: 0.7rem;
+}
+
+#jumbo-tron i {
+    font-size: 2.5rem;
 }
