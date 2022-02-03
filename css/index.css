@@ -11,8 +11,21 @@
 h1 {
     font-size: 3.1rem;
 }
+h2 {
+    font-size:1.8rem;
+}
 
 p {
+    font-size: 0.7rem;
+}
+
+i {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.font-07 {
     font-size: 0.7rem;
 }
 
@@ -24,8 +37,16 @@ p {
     padding-bottom: 3.2vh;
 }
 
+.margin-top-3 {
+    margin-top: 3.2vh;
+}
+
 .m-auto {
     margin: auto;
+}
+
+.all-border {
+    border: 1px solid lightgray;
 }
 
 .float-left {
@@ -42,8 +63,24 @@ p {
     clear: both;
 }
 
+.col {
+    width: calc(100% / 3 - 2vw);
+}
+
+.center-col {
+    margin: 0 3vw;
+}
+
 .w-15 {
     width: 15%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 .w-35 {
@@ -62,8 +99,16 @@ p {
     width: 60%;
 }
 
+.w-70 {
+    width: 70%;
+}
+
 .w-80 {
     width: 80%;
+}
+
+.w-90 {
+    width: 90%;
 }
 
 .w-100 {
@@ -140,6 +185,7 @@ header li > a:hover {
 
 #jumbo-tron {
     margin-top: 9vh;
+    position: relative;
 }
 
 #jumbo-tron h1 {
@@ -157,10 +203,115 @@ header li > a:hover {
     font-size: 0.7rem;
 }
 
-div.float-left div {
-    font-size: 0.7rem;
-}
-
 #jumbo-tron i {
     font-size: 2.5rem;
+    padding-bottom: 10vh;
+}
+
+.jumbo-pos {
+    width: 52%;
+    position: absolute;
+    left: 35%;
+}
+
+main {
+    width: 70%;
+    margin: 20vh auto 10vh;
+}
+
+main input:hover {
+    cursor: pointer;
+}
+
+.radio input {
+    vertical-align: sub;
+}
+
+.radio label {
+    margin-right: 2vw;
+}
+
+.top-col {
+    font-size: 0.7rem;
+    line-height: 4vh;
+    border-bottom: 1px solid lightgray;
+}
+
+.bottom-col {
+    width: 85%;
+    margin: 2vh auto 14vh;
+}
+
+section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5vh;
+}
+
+section .price {
+    font-size: 0.9rem;
+    margin-bottom: 1vh;
+}
+
+section .periodo {
+    color: #86929d;
+    margin-bottom: 2.5vh;
+}
+
+.specifiche {
+    margin-bottom: 1.5vh;
+    font-weight: normal;
+}
+
+.bottom-col a.btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1vh 0;
+    text-decoration: none;
+    margin: 5vh 0 3vh;
+}
+
+.specifiche a {
+    color: #0061ff;
+}
+
+.specifiche a:hover {
+    color: #00a2ff;
+}
+
+.bottom-col hr {
+    margin-bottom: 2.5vh;
+    border-top: 1px solid lightgray
+}
+
+.bottom-col li {
+    list-style-image: url("../img/check-solid.svg");
+    font-weight: normal;    
+    margin: 2vh 0 2vh 7.5%;
+}
+
+.bottom-col li i {
+    color: #0061ff;
+}
+
+.pie-top {
+    line-height: 4vh;
+    border-bottom: 1px solid lightgray;
+}
+
+.pie-body {
+    margin: 3.2vh auto;
+}
+
+.pie-body p {
+    font-weight: normal;
+    
+}
+
+.pie-section a {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 1vh 0;
+        text-decoration: none;
 }
