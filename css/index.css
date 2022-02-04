@@ -37,6 +37,10 @@ i {
     padding-bottom: 3.2vh;
 }
 
+.margin-section {
+    margin-top: 15vh;
+}
+
 .margin-top-3 {
     margin-top: 3.2vh;
 }
@@ -65,6 +69,7 @@ i {
 
 .col {
     width: calc(100% / 3 - 2vw);
+    min-height: 110vh;
 }
 
 .center-col {
@@ -239,7 +244,7 @@ main input:hover {
 
 .bottom-col {
     width: 85%;
-    margin: 2vh auto 14vh;
+    margin: 2vh auto;
 }
 
 section h3 {
@@ -285,12 +290,14 @@ section .periodo {
 }
 
 .bottom-col li {
-    list-style-image: url("../img/check-solid.svg");
+    /* list-style-image: url("../img/check-solid.svg"); */
+    list-style-type: none;
     font-weight: normal;    
-    margin: 2vh 0 2vh 7.5%;
+    margin: 2vh 0 2vh 1vw;
 }
 
 .bottom-col li i {
+    margin-left: -1.5vw;
     color: #0061ff;
 }
 
@@ -315,3 +322,4 @@ section .periodo {
         padding: 1vh 0;
         text-decoration: none;
 }
+
