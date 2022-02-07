@@ -271,10 +271,14 @@ section .periodo {
 }
 
 .specifiche {
+    margin-left: 1vw;
     margin-bottom: 1.5vh;
     font-weight: normal;
 }
 
+.specifiche i {
+    margin-left: -1vw;
+}
 .bottom-col a.btn {
     width: 100%;
     display: block;
@@ -284,17 +288,17 @@ section .periodo {
     margin: 5vh 0 3vh;
 }
 
-.specifiche a {
+.buy-now a {
     color: #0061ff;
 }
 
-.specifiche a:hover {
+.buy-now a:hover {
     color: #00a2ff;
     text-decoration: none;
 }
 
 .bottom-col hr {
-    margin-bottom: 2.5vh;
+    margin: 2.5vh 0;
     border-top: 1px solid lightgray
 }
 
@@ -306,7 +310,7 @@ section .periodo {
 }
 
 .bottom-col li i {
-    margin-left: -1.5vw;
+    margin-left: -1vw;
     color: #0061ff;
 }
 
@@ -348,6 +352,12 @@ section .periodo {
     font-size: 0.7rem;
     font-weight: normal;
     text-decoration: none;
+}
+
+a.btn-white:hover {
+    color: #00a2ff;
+    text-decoration: underline;
+    background-color: white;
 }
 
 #how-it-works p {
