@@ -286,6 +286,7 @@ section .periodo {
 
 .specifiche a:hover {
     color: #00a2ff;
+    text-decoration: none;
 }
 
 .bottom-col hr {
@@ -356,7 +357,48 @@ section .periodo {
 
 #affiliazioni a:hover {
     color: #00a2ff;
+    text-decoration: none;
 }
+
+.special {
+    margin-top: 4.5vh;
+    background-color: #b4d0e7;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 50vh;
+}
+
+.square {
+    height: 15vw;
+    position: relative;
+}
+
+#partner-designit {
+    background-color: #a2d39b;
+}
+
+#partner-arizona {
+    background-color: #61082b;
+}
+
+#partner-florida {
+    background-color: #ff1c1c;
+}
+
+#partner-topps {
+    background-color: #0093ce;
+}
+
+.special-top img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+
 
 div.faq {
     border-top: 1px solid lightgray;
