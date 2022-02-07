@@ -38,7 +38,7 @@ i {
 }
 
 .margin-section {
-    margin-top: 15vh;
+    margin: 15vh auto;
 }
 
 .margin-top-3 {
@@ -51,6 +51,10 @@ i {
 
 .all-border {
     border: 1px solid lightgray;
+}
+
+.pos-relative {
+    position: relative;
 }
 
 .float-left {
@@ -69,7 +73,6 @@ i {
 
 .col {
     width: calc(100% / 3 - 2vw);
-    /* min-height: 110vh; */
 }
 
 .center-col {
@@ -197,7 +200,6 @@ header .btn:hover {
 
 #jumbo-tron {
     margin-top: 9vh;
-    position: relative;
 }
 
 #jumbo-tron h1 {
@@ -220,15 +222,10 @@ header .btn:hover {
     padding-bottom: 10vh;
 }
 
-.jumbo-pos {
+#jumbo-tron .pos-relative img {
     width: 52%;
     position: absolute;
     left: 35%;
-}
-
-main {
-    width: 70%;
-    margin: 20vh auto 10vh;
 }
 
 main input:hover {
@@ -250,7 +247,7 @@ main input:hover {
 }
 
 .bottom-col {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 85%;
     margin: 2vh auto;
 }
@@ -271,14 +268,20 @@ section .periodo {
 }
 
 .specifiche {
-    margin-left: 1vw;
+    margin-left: 20px;
     margin-bottom: 1.5vh;
     font-weight: normal;
 }
 
-.specifiche i {
-    margin-left: -1vw;
+.specifiche span {
+    font-weight: normal;
+    padding-left: 9px;
 }
+
+.specifiche i {
+    margin-left: -20px;
+}
+
 .bottom-col a.btn {
     width: 100%;
     display: block;
@@ -303,14 +306,11 @@ section .periodo {
 }
 
 .bottom-col li {
-    /* list-style-image: url("../img/check-solid.svg"); */
-    list-style-type: none;
-    font-weight: normal;    
-    margin: 2vh 0 2vh 1vw;
+    list-style-type: none;   
+    margin: 2vh 0 2vh 20px;
 }
 
 .bottom-col li i {
-    margin-left: -1vw;
     color: #0061ff;
 }
 
@@ -325,15 +325,14 @@ section .periodo {
 
 .pie-body p {
     font-weight: normal;
-    
 }
 
 .pie-section a {
-        width: 100%;
-        display: block;
-        text-align: center;
-        padding: 1vh 0;
-        text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 1vh 0;
+    text-decoration: none;
 }
 
 #trova-partner div.w-40 {
@@ -366,6 +365,7 @@ a.btn-white:hover {
 }
 
 #affiliazioni a {
+    display: block;
     color: #0061ff;
 }
 
@@ -378,13 +378,20 @@ a.btn-white:hover {
     margin-top: 4.5vh;
     background-color: #b4d0e7;
     width: 100%;
-    position: absolute;
-    left: 0;
 }
 
 .square {
     height: 15vw;
     position: relative;
+}
+
+.square:hover {
+    cursor: pointer;
+    border: 10px solid rgba(255, 255, 255, 0.6);
+}
+
+.square:hover > img {
+    width: 70%;
 }
 
 .special-top .square img {
@@ -393,6 +400,7 @@ a.btn-white:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
+    transition: 0.5s;
 }
 
 #focus-partner {
@@ -408,6 +416,7 @@ a.btn-white:hover {
 
 #partner-designit {
     background-color: #a2d39b;
+
 }
 
 #partner-arizona {
@@ -453,10 +462,6 @@ a.btn-white:hover {
 #affiliazioni .special-bottom a.btn:hover {
     color: #00a2ff;
     text-decoration: underline;
-}
-
-#faq {
-    margin-top: 90vh;
 }
 
 div.faq {
