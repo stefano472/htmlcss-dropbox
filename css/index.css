@@ -152,7 +152,7 @@ i {
 
 .btn:hover {
     background-color: #00a2ff;
-    border-bottom: none;
+    /* border-bottom: none; */
 }
 
 /* Rule */
@@ -186,6 +186,10 @@ header li > a {
 
 header li > a:hover {
     border-bottom: 1px solid black;
+}
+
+header .btn:hover {
+    border-bottom: none;
 }
 
 #jumbo-tron {
@@ -323,3 +327,20 @@ section .periodo {
         text-decoration: none;
 }
 
+#trova-partner div.w-40 {
+    padding-left: 5vw;
+}
+
+#trova-partner p {
+    font-weight: normal;
+    margin-bottom: 2vh;
+}
+
+.btn-white {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: normal;
+    text-decoration: none;
+}
