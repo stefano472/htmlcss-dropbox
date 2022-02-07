@@ -400,7 +400,7 @@ a.btn-white:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 #focus-partner {
