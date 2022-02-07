@@ -69,7 +69,7 @@ i {
 
 .col {
     width: calc(100% / 3 - 2vw);
-    min-height: 110vh;
+    /* min-height: 110vh; */
 }
 
 .center-col {
@@ -247,6 +247,7 @@ main input:hover {
 }
 
 .bottom-col {
+    min-height: 100vh;
     width: 85%;
     margin: 2vh auto;
 }
@@ -343,4 +344,9 @@ section .periodo {
     font-size: 0.7rem;
     font-weight: normal;
     text-decoration: none;
+}
+
+#how-it-works p {
+    font-weight: normal;
+    margin-bottom: 5vh;
 }
