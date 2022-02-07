@@ -136,8 +136,8 @@ i {
     vertical-align: middle;
 }
 
-.l-height-2 {
-    line-height: 2rem;;
+.l-height-1-4 {
+    line-height: 1.4rem;;
 }
 
 .bg-light-blue {
@@ -152,7 +152,6 @@ i {
 
 .btn:hover {
     background-color: #00a2ff;
-    /* border-bottom: none; */
 }
 
 /* Rule */
@@ -350,3 +349,40 @@ section .periodo {
     font-weight: normal;
     margin-bottom: 5vh;
 }
+
+#affiliazioni a {
+    color: #0061ff;
+}
+
+#affiliazioni a:hover {
+    color: #00a2ff;
+}
+
+div.faq {
+    border-top: 1px solid lightgray;
+    padding: 2vh 0;
+}
+
+#faq div.faq:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+div.faq i{
+    line-height: 1.4rem;
+}
+
+div.faq p {
+    display: none;
+    font-weight: normal;
+    padding-top: 1vh;
+}
+
+.titolo-faq:hover{
+    cursor: pointer;
+}
+
+.titolo-faq:hover + p {
+    display: block;
+}
+
+
